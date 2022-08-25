@@ -1,0 +1,23 @@
+# Nmap 7.80 scan initiated Wed Aug 24 18:52:24 2022 as: nmap -sC -sV -sT -oN scan.nmap 10.0.0.26
+Nmap scan report for 10.0.0.26
+Host is up (0.067s latency).
+Not shown: 997 closed ports
+PORT      STATE SERVICE VERSION
+22/tcp    open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 f7:d5:d7:6a:94:48:7a:2d:a8:f6:35:ce:97:d2:73:9f (RSA)
+|   256 87:aa:a5:d6:f1:f2:10:8c:b9:9b:e1:dd:95:ea:0a:16 (ECDSA)
+|_  256 ec:f2:fd:9c:99:ed:c6:5a:e1:d8:b6:b2:f5:75:59:49 (ED25519)
+80/tcp    open  http    Apache httpd 2.4.29 ((Ubuntu))
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Index
+10000/tcp open  http    MiniServ 1.970 (Webmin httpd)
+|_http-title: Site doesn't have a title (text/html; Charset=utf-8).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 24 18:53:04 2022 -- 1 IP address (1 host up) scanned in 39.65 seconds
