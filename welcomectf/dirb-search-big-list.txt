@@ -1,0 +1,27 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb-search-big-list.txt
+START_TIME: Thu Aug 25 07:42:26 2022
+URL_BASE: http://10.0.0.10/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Stopping on warning messages
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.0.0.10/ ----
+==> DIRECTORY: http://10.0.0.10/admin/
++ http://10.0.0.10/index.php (CODE:200|SIZE:68)
+
+---- Entering directory: http://10.0.0.10/admin/ ----
++ http://10.0.0.10/admin/index.php (CODE:200|SIZE:19)
++ http://10.0.0.10/admin/phpinfo.php (CODE:200|SIZE:0)
+
+-----------------
+END_TIME: Thu Aug 25 07:51:13 2022
+DOWNLOADED: 9224 - FOUND: 3
